@@ -1,0 +1,79 @@
+@font-face{
+    font-family: "Arial Rounded";
+	src: url(fonts/arlrdbd.ttf);
+	font-style: normal;
+}
+
+@font-face{
+    font-family: MarkMyWords;
+    src: url(fonts/mark_my_words.ttf);
+	font-style: normal;
+}
+
+body{
+    background-color: #C92AB4;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.x img{
+    position: absolute;
+    top: 3vh;
+    right: 3vh;
+}
+
+.box-1 h1{
+    text-align: center;
+    font-size: 150px;
+    font-family: MarkMyWords;
+    color: white;
+    margin-top: 10vh;
+}
+
+.box-2 h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial;
+    color: white;
+    margin-top: -10vh;
+    text-decoration: underline;
+}
+.box-2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.container-1{
+    text-align: center;
+    color: white;
+    line-height: 0.7;
+    margin-top: 9vh;
+}
+.container-1 h1{
+    font-family: "Arial Rounded";
+    font-size: 30px;
+}
+.container-1 p{
+    font-family: Arial;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 425px){
+    .box-1 h1{
+        font-size: 60px;
+        margin-top: 17vh;
+    }
+    .box-2 h1{
+        font-size: 22px;
+        margin-top: 8vh;
+    }
+    .container-1 h1{
+        font-size: 22px;
+    }
+    .container-1 p{
+        font-size: 22px;
+    }
+    
+}
